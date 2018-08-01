@@ -1,0 +1,12 @@
+.container{
+  margin-top: 50px;
+}
+form{
+  margin: 50px;
+}
+.btn-primary{
+  float: right;
+}
+.plot{
+  width: 300px;
+}
