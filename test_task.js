@@ -18,9 +18,9 @@ $(".btn_submit_tast3").click(function(){
   }
 
   var floor = Math.floor(array.length/2);
-
+  
   for(var i = 0; i < dictionary.length; i++){
-    if (dictionary[i][1] >= floor)
+    if (dictionary[i][1] > floor)
       $("#task3_result").val($("#task3_result").val() + dictionary[i][0] + "; ")
   }
 
